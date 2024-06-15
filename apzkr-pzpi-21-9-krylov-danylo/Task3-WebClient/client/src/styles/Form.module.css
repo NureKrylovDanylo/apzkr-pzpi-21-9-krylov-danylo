@@ -1,0 +1,10 @@
+.item {
+    margin: 10px 0;
+}
+
+.submitButtons {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+}

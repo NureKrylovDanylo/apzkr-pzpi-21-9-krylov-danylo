@@ -1,0 +1,14 @@
+@import url('../../../styles/var.css');
+
+.wrapper {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.container {
+}

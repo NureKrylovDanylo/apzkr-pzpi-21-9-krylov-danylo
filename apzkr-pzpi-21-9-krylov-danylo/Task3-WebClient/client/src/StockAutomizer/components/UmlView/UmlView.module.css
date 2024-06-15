@@ -1,0 +1,36 @@
+@import url('../../../styles/var.css');
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.area {
+    position: relative;
+    height: 100%;
+}
+
+.header {
+    background: var(--black-color);
+    border-bottom: 1px solid var(--black-lite-color);
+}
+
+.headerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.block {
+
+}
+
+.name {
+    color: var(--white-color);
+    font-size: 18px;
+}
+
+.saveButton {
+    display: inline-block;
+}

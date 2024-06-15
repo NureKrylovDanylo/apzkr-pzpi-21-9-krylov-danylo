@@ -1,0 +1,57 @@
+@import url('../../../styles/var.css');
+
+.arrow {
+    position: relative;
+}
+
+.arrow::before, .arrow::after {
+    position: absolute;
+    top: 25%;
+    content: '';
+    display: inline-block;
+    width: 64%;
+    height: 3px;
+    background-color: var(--white-color);
+}
+
+.arrow::before {
+    left: 0;
+    transform: rotate(45deg);
+    animation: rotateAnimationBefore 0.1s linear;
+}
+
+.arrow::after {
+    right: 0;
+    transform: rotate(-45deg);
+    animation: rotateAnimationAfter 0.1s linear;
+}
+
+.arrow.active::before {
+    transform: rotate(-45deg);
+    animation: rotateAnimationBeforeActive 0.1s linear;
+}
+
+.arrow.active::after {
+    transform: rotate(45deg);
+    animation: rotateAnimationAfterActive 0.1s linear;
+}
+
+@keyframes rotateAnimationBefore {
+    0% { transform: rotate(-45deg); }
+    100% { transform: rotate(45deg); }
+}
+
+@keyframes rotateAnimationAfter {
+    0% { transform: rotate(45deg); }
+    100% { transform: rotate(-45deg); }
+}
+
+@keyframes rotateAnimationBeforeActive {
+    0% { transform: rotate(45deg); }
+    100% { transform: rotate(-45deg); }
+}
+
+@keyframes rotateAnimationAfterActive {
+    0% { transform: rotate(-45deg); }
+    100% { transform: rotate(45deg); }
+}

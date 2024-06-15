@@ -1,0 +1,26 @@
+@import url('../../../styles/var.css');
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+}
+
+.content label {
+    color: var(--white-color);
+}
+
+.content input {
+    background-color: var(--total-black);
+    border-radius: 5px;
+    border: 1px solid var(--black-lite-color);
+    color: var(--white-color);
+    padding: 0 10px;
+    height: 30px;
+}
+
+.errorMessage {
+    color: var(--red-color);
+}

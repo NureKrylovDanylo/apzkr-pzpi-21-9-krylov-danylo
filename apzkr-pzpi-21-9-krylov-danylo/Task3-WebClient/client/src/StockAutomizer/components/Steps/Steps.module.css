@@ -1,0 +1,23 @@
+.steps {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    user-select: none;
+    border-bottom: 1px solid var(--black-lite-color);
+    background: var(--total-black);
+  }
+  
+  .step {
+    border-right: 1px solid var(--black-color);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    background: var(--black-lite-color);
+  }
+
+  .step.active {
+    background: var(--red-color)
+  }

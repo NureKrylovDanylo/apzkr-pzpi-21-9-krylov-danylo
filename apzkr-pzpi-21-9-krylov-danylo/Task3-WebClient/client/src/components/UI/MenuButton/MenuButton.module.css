@@ -1,0 +1,27 @@
+@import url("../../../styles/var.css");
+
+.button {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.dotContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.dot {
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+  background-color: var(--white-color);
+}
+
+.button:hover {
+    opacity: .8;
+}

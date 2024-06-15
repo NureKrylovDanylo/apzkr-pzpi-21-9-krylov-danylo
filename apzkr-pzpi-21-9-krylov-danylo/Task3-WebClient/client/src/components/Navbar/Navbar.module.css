@@ -1,0 +1,58 @@
+@import url('../../styles/var.css');
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wrapper > header {
+    background-color: var(--black-color);
+    border-bottom: 1px solid var(--black-lite-color);
+}
+
+.headerContent {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.logotype {
+}
+
+.logotype img{
+    width: 175px;
+}
+
+.navigation {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navItem {
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+
+.wrapper main {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.wrapper footer {
+    background-color: var(--black-color);
+    border-top: 1px solid var(--black-lite-color);
+    height: 40px;
+}
+
+@media (max-width: 1280px) {
+    .headerContent {
+        padding: 20px 10px;
+    }
+}

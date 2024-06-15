@@ -1,0 +1,57 @@
+@import url("../../../styles/var.css");
+
+.item {
+    height: 40px;
+    cursor: pointer;
+    position: relative;
+    border-bottom: 1px solid var(--black-lite-color);
+}
+
+.itemContent {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background: var(--total-black);
+    padding-right: 10px;
+}
+
+.block {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.color {
+    width: 10px;
+    height: 100%;
+    background-color: var(--red-color);
+}
+
+.expand {
+
+}
+
+.title {
+    color: var(--white-color);
+}
+
+.data {
+    height: 0;
+    visibility: hidden;
+    transform: scaleY(0);
+}
+
+.data.active {
+    height: auto;
+    visibility: visible;
+    transform: scaleY(1);
+}
+
+.editionName {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}

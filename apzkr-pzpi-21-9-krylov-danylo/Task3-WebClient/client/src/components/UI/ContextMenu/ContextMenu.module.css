@@ -1,0 +1,33 @@
+@import url('../../../styles/var.css');
+
+.container {
+    position: fixed;
+    background: transparent;
+    top: 0;
+    left: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    z-index: 1000;
+}
+
+.content {
+    position: absolute;
+    background: var(--total-black);
+    border: 1px solid var(--black-lite-color);
+    border-radius: 5px;
+    z-index: 100;
+}
+
+.items {
+
+}
+
+.item {
+    color:white;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.item:hover {
+    background: var(--black-color);
+}

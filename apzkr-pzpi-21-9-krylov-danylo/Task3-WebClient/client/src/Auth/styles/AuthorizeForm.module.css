@@ -1,0 +1,11 @@
+.form {
+    max-width: 500px;
+    border: 1px solid var(--black-lite-color);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto 0 auto;
+}
+
+.item {
+    margin: 10px 0;
+}

@@ -1,0 +1,7 @@
+.select {
+    height: 30px;
+    border-radius: 5px;
+    background: var(--total-black);
+    border: 1px solid var(--black-lite-color);
+    color: white;
+}

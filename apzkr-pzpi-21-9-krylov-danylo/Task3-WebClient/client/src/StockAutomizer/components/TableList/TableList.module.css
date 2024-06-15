@@ -1,0 +1,13 @@
+@import url('../../../styles/var.css');
+
+.content {
+    border-right: 1px solid var(--black-lite-color);
+    overflow-y: auto;
+}
+
+.createButton {
+    padding: 10px;
+}
+
+.list {
+}
